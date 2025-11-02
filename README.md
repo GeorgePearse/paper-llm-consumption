@@ -315,6 +315,7 @@ Contributions welcome! Areas of interest:
 - *langchain* - Document processing frameworks
 - *nougat* - Academic document understanding
 - *paperswithcode* - Source dataset
+- [academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) - MCP server for academic paper search and discovery
 
 ---
 
