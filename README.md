@@ -320,6 +320,12 @@ Contributions welcome! Areas of interest:
 
 ---
 
+## Note
+
+Honestly, some existing solutions in this space look pretty good already. Before diving too deep into building custom approaches here, it's worth thoroughly exploring and testing what's already available (especially the tools listed above). This repo serves as a sandbox for experimentation and comparison, but you should absolutely try leveraging existing solutions first before reinventing the wheel.
+
+---
+
 ## License
 
 MIT
