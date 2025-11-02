@@ -316,6 +316,7 @@ Contributions welcome! Areas of interest:
 - *nougat* - Academic document understanding
 - *paperswithcode* - Source dataset
 - [academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) - MCP server for academic paper search and discovery
+- [ScholarAI Blog: MCP](https://scholarai.io/blog/mcp) - Model Context Protocol applications for research
 
 ---
 
