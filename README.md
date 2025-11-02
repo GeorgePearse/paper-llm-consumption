@@ -22,6 +22,31 @@ This project uses the **Papers with Code dataset** for experimentation and evalu
 - Enables comparative analysis of different consumption approaches
 - Provides ground truth for evaluating structural preservation
 
+### Paper Selection Strategy
+
+Papers are sampled using a PageRank-inspired approach combined with recency bias:
+
+**Citation Weight (PageRank-like)**
+- Papers with higher citation counts are sampled more frequently
+- This ensures the evaluation focuses on impactful, well-established papers
+- Weighted sampling creates a natural distribution of paper importance
+
+**Recency Bias**
+- Recent papers (last 2-3 years) are slightly overweighted
+- Ensures evaluation covers modern research trends and patterns
+- Balances focus between foundational and cutting-edge work
+
+**Combined Score**
+```
+sample_weight = citation_count^0.5 * (1 + recency_boost)
+# where recency_boost increases for papers published in last 2 years
+```
+
+This approach ensures:
+- Robust evaluation against papers that truly matter
+- Coverage of diverse paper types and styles
+- Representative sample of current and influential research
+
 ### Obtaining the Dataset
 ```
 # Dataset available at: https://paperswithcode.com/

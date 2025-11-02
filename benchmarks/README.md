@@ -6,10 +6,12 @@ Systematic evaluation of different approaches.
 
 ### datasets/
 Test sets derived from Papers with Code:
-- Metadata listings
+- Metadata listings with citation counts and publication dates
 - Sample papers for each category
 - Stratified subsets for fair comparison
 - Ground truth annotations
+- Papers sampled using PageRank-like weighting (citation counts) + recency bias
+- Ensures evaluation focuses on impactful papers while including recent work
 
 ### metrics/
 Evaluation frameworks:
